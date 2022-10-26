@@ -1,16 +1,25 @@
 <?php
-class Fruit {
-  public $name;
-  public $color
 
-  function __construct($name) {
+class Fruit {
+//   creating variables
+ public $name;
+ public $color;
+ 
+  //implementing functions
+ function __construct($name) {
     $this->name = $name;
-  }
-  function get_name() {
-    return this->name;
-  }
+ }
+  
+ function get_name() {
+    return $this->name;
+ }
+  
 }
 
+// function calling
 $apple = new Fruit("Apple");
-echo $apple->get_name()
->
+// displaying outputs
+echo $apple->get_name();
+
+?>
+
